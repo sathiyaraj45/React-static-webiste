@@ -3,4 +3,4 @@
 The following react packages are require
 
 * npm install react-router-dom
-* create-react-component-folder
+* npm install --save-dev create-react-component-folder

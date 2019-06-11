@@ -4,9 +4,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">      
-    </div>
+  return (    
+    <div> hello welcome</div>
   );
 }
 export default App;
