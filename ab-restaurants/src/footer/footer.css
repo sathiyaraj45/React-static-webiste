@@ -1,0 +1,12 @@
+.ab-footer {    
+    width: 100%;
+    height: 200px;
+    background-color: #D63230;
+}
+.ab-footer-sitemap {
+    background-color: #1C77C3;
+}
+
+.ab-footer h5, p {
+    color: #ffffff;
+}
