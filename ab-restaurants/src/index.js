@@ -10,6 +10,7 @@ import Menu from './menu/menu';
 import Home from './home/home';
 import Contact from './contact/contact';
 import Footer from './footer/footer';
+import PageNotFound from './PageNotFound/PageNotFound';
 const routing = (
   <BrowserRouter>
   <Header></Header>
@@ -18,6 +19,7 @@ const routing = (
       <Route path="/home" component={Home} />
       <Route path="/Menu" component={Menu} />
       <Route path="/contact" component={Contact} />    
+      <Route path="**" component={PageNotFound} />
   </Switch>
   <Footer></Footer>
   </BrowserRouter>
